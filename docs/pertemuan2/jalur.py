@@ -4,12 +4,7 @@ peta = {
              'Pasar Minggu': ['Kandis'],
              'Kandis': ['Minas'],
              'Minas': ['Pekanbaru'],
-             'Pekanbaru': ['Minas'],
-             'Minas': ['Kandis'],
-             'Kandis': ['Pasar Minggu'],
-             'Pasar Minggu': ['Duri'],
-             'Duri': ['Dumai'],
-             'Dumai': ['Duri']
+             'Pekanbaru': ['Minas']
         }
 
 def mencari_jalur_terpendek(peta, jalanawal, jalantujuan, jalur=[]):
